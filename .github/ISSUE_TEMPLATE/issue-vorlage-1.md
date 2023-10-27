@@ -1,30 +1,41 @@
 ---
-name: Issue Vorlage 1
-about: Dieser Issue wird als Anforderung verwendet
-title: ''
-labels: ''
-assignees: ''
+name: 
+about: Describe the requirement, including the target system, priority, system activity, conditions, and functionality.
 
 ---
 
-Zielsystem: [Hier das betroffene System eingeben]
+**Target System:**
 
-Priorität: [Hohe / Mittlere / Niedrige]
+Describe the target system or subsystem that the requirement interracts with.
 
-Systemaktivität: [Selbstständig handeln / Benutzerfunktion anbieten / Schnittstellenanforderung]
+**Priority:**
 
-Zeitliche Bedingungen: [Wenn erforderlich]
+- [ ] Must (High Priority)
+- [ ] Should (Medium Priority)
+- [ ] Will (Low Priority)
 
-Logische Bedingungen: [Falls erforderlich]
+**System Activity:**
 
-Zusätzliche Informationen: [Hier weitere Informationen oder Ergänzungen zur Anforderung hinzufügen]
+Describe what the system should do or interact with:
 
-Funktionalität: [Hier die gewünschte Funktionalität beschreiben]
+- [ ] Act autonomously
+- [ ] Provide user functionality
+- [ ] Interface requirements (write details)
+- [ ] Other (write details)
 
-Bedingungen: [Hier eventuelle Bedingungen für die Funktionalität beschreiben]
+**Conditions:**
 
-Etiketten:
+Describe any time-based or logical conditions using "if" and "when" statements:
 
-[Funktionale Anforderung]
-[Qualitätsanforderung]
-[Randanforderung]
+- If...
+- When...
+
+**Functionality:**
+
+Describe the desired functionality or action:
+
+**Additional Information:**
+
+Add any additional information or context about the issue.
+
+**Example:**
