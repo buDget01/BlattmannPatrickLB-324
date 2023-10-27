@@ -11,7 +11,11 @@
 
 ## Aufgabe 4
 Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
+1. Bevor man irgendwas machen kann, braucht man eine lokale `.env` Datei im lokalen Ordner zu erstellen und muss diese pushen
+2. Danach erstellt man ein Azure App Service
+3. Im Deployment Center der App Service muss man Azure mit dem GitHub Repositorie verbinden
+4. Anschliessend muss man in der Konfiguration eine neue Application Setting erstellen mit dem namen PASSWORD und mit dem Wert gleich gesetzt wie der im .env Datei gespeicherten Passwort.
+5. Sobald dieser gespeichert ist, kann man sich auf der Webseite einloggen
 
 ## URL für die Applikation
 blattmannpatricklb-324.azurewebsites.net
-
